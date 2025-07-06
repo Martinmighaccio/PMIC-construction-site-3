@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PMIC Construction</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+</head>
+<body>
+  <header class="hero-banner">
+    <div class="overlay">
+      <h1>PMIC Construction</h1>
+      <p>Custom Homes Built From Foundation to Finish</p>
+      <a href="#contact" class="cta-btn">Request a Free Estimate</a>
+    </div>
+  </header>
+
+  <nav class="sticky-nav">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="content-section">
+    <h2>Who We Are</h2>
+    <p>Based in Cedar City, PMIC Construction delivers quality craftsmanship in every project. We’re a subcontracting crew specializing in custom homes and full builds from start to finish.</p>
+  </section>
+
+  <section id="services" class="card-section">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card"><h3>Framing & Finish</h3><p>Precision structural framing and interior finish work.</p></div>
+      <div class="card"><h3>Concrete & Foundations</h3><p>Driveways, foundations, flatwork and more.</p></div>
+      <div class="card"><h3>Landscaping</h3><p>Custom outdoor layouts and yard solutions.</p></div>
+      <div class="card"><h3>Handy Work & Cleanup</h3><p>Detail finish work and final construction cleanup.</p></div>
+    </div>
+  </section>
+
+  <section id="gallery" class="content-section">
+    <h2>Project Gallery</h2>
+    <div class="carousel">
+      <div><img src="images/photo1.jpg" alt="Project 1" /></div>
+      <div><img src="images/photo2.jpg" alt="Project 2" /></div>
+      <div><img src="images/photo3.jpg" alt="Project 3" /></div>
+    </div>
+  </section>
+
+  <section id="reviews" class="content-section">
+    <h2>Customer Reviews</h2>
+    <p><a href="https://search.google.com/local/writereview?placeid=YOUR_PLACE_ID" target="_blank" class="review-btn">⭐ Leave Us a Google Review</a></p>
+  </section>
+
+  <section id="contact" class="content-section">
+    <h2>Contact Us</h2>
+    <p><strong>📞 (435) 559-7731</strong></p>
+    <p>📧 <a href="mailto:mighaccio@gmail.com">mighaccio@gmail.com</a></p>
+    <p>🌐 <a href="https://pmicconstruction.com" target="_blank">pmicconstruction.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 PMIC Construction • Cedar City, Utah • Built in the USA 🇺🇸</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel').slick({
+        dots: true,
+        infinite: true,
+        speed: 400,
+        slidesToShow: 1,
+        adaptiveHeight: true
+      });
+    });
+  </script>
+</body>
+</html>

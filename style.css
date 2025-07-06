@@ -1,0 +1,100 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fefefe;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+.hero-banner {
+  background: url('images/photo1.jpg') center/cover no-repeat;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.overlay h1 {
+  font-size: 2.5rem;
+  color: #1f2937;
+}
+.overlay p {
+  font-size: 1.25rem;
+}
+.cta-btn {
+  background: #2563eb;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+.sticky-nav {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.sticky-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0.75rem 0;
+  margin: 0;
+}
+.sticky-nav li {
+  margin: 0 1rem;
+}
+.sticky-nav a {
+  text-decoration: none;
+  color: #1f2937;
+  font-weight: 600;
+}
+.content-section {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.card-section {
+  background: #f3f4f6;
+  padding: 2rem 1rem;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  max-width: 960px;
+  margin: auto;
+}
+.card {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+.carousel img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.review-btn {
+  font-size: 1.1rem;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #e5e7eb;
+  font-size: 0.9rem;
+}
